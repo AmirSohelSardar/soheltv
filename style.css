@@ -1,127 +1,132 @@
 *{
-    margin: 0;
-    padding: 0;
-   
+  margin: 0;
+  padding: 0;
+ 
+}
+
+html{
+font-size: 62.5%;
+
 }
 
 .main{
-    width: 100%;
-    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://img.freepik.com/premium-photo/interior-poster-living-room-with-colorful-white-sofa_46483-765.jpg?w=1060);
-    background-position: center;
-    background-size: cover;
-    height: 109vh;
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://img.freepik.com/premium-photo/interior-poster-living-room-with-colorful-white-sofa_46483-765.jpg?w=1060);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
 
 }
 
 .navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+  width: 120rem;
+  height: 7.5rem;
+  margin: auto;
 
 }
 
 .icon{
-    width: 200px;
-    float: left;
-    height: 70px;
+  width: 20rem;
+  float: left;
+  height: 7rem;
 
 }
 
 .logo{
-    color: #ff7200;
-    font-size: 60px;
-    font-family: Arial;
-    padding-right: 105px;
-    float: right;
-    padding-top: 10px;
-   
+  color: #ff7200;
+  font-size: 6rem;
+  font-family: Arial;
+  padding-right: 10.5rem;
+  float: right;
+  padding-top: 1rem;
+ 
 }
 
 
 ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul li{
-    list-style: none;
-    margin-left: 90px;
-    margin-top: 30px;
-    font-size: 1px;
+  list-style: none;
+  margin-left: 9rem;
+  margin-top: 3rem;
+  font-size: 0.1rem;
 }
 
 ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
 }
 ul li a:hover{
-    color: #ff7200;
+  color: #ff7200;
 }
 .xx{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: #ff7200;
-    list-style: none;
-    gap :3.5rem;
-    position: relative;
-    top :20px;
-    left: 60px;
-    padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #ff7200;
+  list-style: none;
+  gap :3.5rem;
+  position: relative;
+  top :2rem;
+  left: 6rem;
+  padding: 1rem 2rem;
+  font-size: 2.7rem;
 }
-    a{
-       
+  a{
+     
 
-    color: white;
+  color: white;
 
 }
 a:hover{
-    color: #ff7200;
+  color: #ff7200;
 }
 
 
 html{
-   overflow: hidden;
-   width: 100%;
-    
+ overflow: hidden;
+ width: 100%;
+  
 }
 
 
 .search-container {
-    position: absolute;
-    top: 20px;
-    right: 50px;
-  }
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+}
 
-  .search-input {
-    padding: 5px 10px;
-    border: 1px solid #050202;
-    border-radius: 5px;
-    font-size: 14px;
-    width: 150px;
-    color: black;
-  }
-  
-  
+.search-input {
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #050202;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  width: 15rem;
+  color: black;
+}
 
 
-  .search-button {
-    background-color: #ff7200;
-    color: #060000;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
 
-  .search-button:hover {
-    background-color: #2980b9;
-  }
+.search-button {
+  background-color: #ff7200;
+  color: #060000;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}
 
 
 
@@ -129,205 +134,217 @@ html{
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #e35869;
+  font-family: 'Rubik', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+img{
+  border: 0.2rem solid black;
+  position:absolute;
   
-  body {
-    background: #e35869;
-    font-family: 'Rubik', sans-serif;
-  }
+}
+.photo {
+  position: relative;
+  height: 15rem; /* You can adjust the height of the container */
+}
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+img {
+  position: relative;
+  bottom: 0;
+  top: 12rem;
+  right: 10rem;
+  transform: translateX(-99%);
+}
 
-  }
-  img{
-    border: 2px solid black;
-    position:absolute;
-    
-  }
-  .photo {
-    position: relative;
-    height: 300px; /* You can adjust the height of the container */
-  }
+.content{
+  width: 120rem;
+  height: auto;
+  top: 30.2rem;
+  margin: auto;
+  color: #fff;
+  position: relative;
+  right: 15rem;
   
-  img {
-    position: relative;
-    bottom: 0;
-    top: 120px;
-    right: 200px;
-    transform: translateX(-99%);
-  }
+}
 
-  .content{
-    width: 1200px;
-    height: auto;
-    top: 245px;
-    margin: auto;
-    color: #fff;
-    position: relative;
-    right: 150px;
-    
-  }
+.content .par{
+  padding-left: 2rem;
+  padding-bottom: 2.5rem;
+  font-family: Arial;
+  letter-spacing: 0.12rem;
+  line-height: 3rem;
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 4.5rem;
+  padding-left: 0.2rem;
+  letter-spacing: 0.2rem;
 
-  .content .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-  }
-  .content h1{
-    font-family: 'Times New Roman';
-    font-size: 45px;
-    padding-left: 20px;
-    letter-spacing: 2px;
+}
+.content h2{
+  font-family: 'Times New Roman';
+  font-size: 3.5rem;
+  padding-left: 2rem;
+  letter-spacing: 0.2rem;
+}
 
-  }
-  .content h2{
-    font-family: 'Times New Roman';
-    font-size: 35px;
-    padding-left: 20px;
-    letter-spacing: 2px;
-  }
+.content .cn{
+  width: 16rem;
+  height: 4rem;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: .4s ease;
 
-  .content .cn{
-    width: 160px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .4s ease;
+}
 
-  }
+.content .cn a{
+  text-decoration: none;
+  color: white;
+  transition: .3s ease;
+}
 
-  .content .cn a{
-    text-decoration: none;
-    color: white;
-    transition: .3s ease;
-  }
-  
-  .content .cn:hover {
-    background-color: #2980b9;
-  }
-  .form{
-    width: 250px;
-    height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
-    position: absolute;
-    top: -135px;
-    left: 1218px;
-    border-radius: 10px;
-    padding: 25px;
-  }
+.content .cn:hover {
+  background-color: #2980b9;
+}
+.form{
+  width: 25rem;
+  height: 38rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  position: absolute;
+  top: -13.5rem;
+  left: 121.8rem;
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
 
-  .form h3{
-    width: 195px;
-    font-family: sans-serif;
-    text-align: center;
-    color: #ff7200;
-    font-size: 22px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-  }
-  
-  .form input{
-    width: 190px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid #ff7200;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-family: sans-serif;
+.form h3{
+  width: 19.5rem;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 2.2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  padding: 0.8rem;
+}
+
+.form input{
+  width: 19rem;
+  height: 3.5rem;
+  background: transparent;
+  border-bottom: 0.1rem solid #ff7200;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-top: 3rem;
+  font-family: sans-serif;
 
 
+}
+
+.form input:focus{
+  outline: none;
+
+}
+
+::placeholder{
+  color: white;
+  font-family:Arial;
+}
+
+.btnn{
+  width: 19.8rem;
+  height: 4rem;
+  background: #ff7200;
+  border: none;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+
+}
+
+.btnn:hover{
+  background: #2980b9;
+  color: #ff7200;
+}
+
+.btnn a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form .link{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.form .link a{
+  text-decoration: none;
+  color: #ff7200;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+
+}
+
+  input[type="email"]::placeholder,
+  input[type="password"]::placeholder {
+    color: white; /* Change to the desired placeholder text color */
   }
 
-  .form input:focus{
-    outline: none;
-  
-  }
 
-  ::placeholder{
-    color: white;
-    font-family:Arial;
-  }
-
-  .btnn{
-    width: 198px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    margin-top: 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #fff;
-    transition: 0.4s ease;
-
-  }
-
-  .btnn:hover{
-    background: #2980b9;
-    color: #ff7200;
-  }
-
-  .btnn a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-  }
-
-  .form .link{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
-    text-align: center;
-  }
-
-  .form .link a{
-    text-decoration: none;
-    color: #ff7200;
-  }
-
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: black;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: black;
-  
-  }
-  
-    input[type="email"]::placeholder,
-    input[type="password"]::placeholder {
-      color: white; /* Change to the desired placeholder text color */
+  @media(max-width:998px) {
+    html {
+      font-size: 40%;
     }
+  }
 
- 
+  @media(max-width:768px) {
+    html {
+      font-size: 35%;
+    }
+  }
 
-
-
-  
+  html, body{
+    overflow-x: hidden;
+    max-width: 100%
+  }
