@@ -6,7 +6,7 @@
 
 html{
 font-size: 62.5%;
-
+overflow:hidden;
 
 }
 
@@ -17,8 +17,10 @@ font-size: 62.5%;
   background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://img.freepik.com/premium-photo/interior-poster-living-room-with-colorful-white-sofa_46483-765.jpg?w=1060);
   background-position: center;
   background-size: cover;
-  height: 118vh;
+  height: 109vh;
   background-color: transparent;
+
+ 
 
 }
 
